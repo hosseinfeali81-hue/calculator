@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fa">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ماشین‌حساب</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="calculator" role="application" aria-label="ماشین‌حساب">
+    <!-- نمایش عدد (نمایشگر) -->
+    <div class="display" aria-live="polite">0</div>
+
+    <!-- کلیدها -->
+    <div class="pad">
+      <!-- ردیف عملکردها -->
+      <button class="btn btn-func">AC</button>
+      <button class="btn btn-func">C</button>
+      <button class="btn btn-func">%</button>
+      <button class="btn btn-op">/</button>
+
+      <!-- اعداد ردیف 7 8 9 -->
+      <button class="btn btn-num">7</button>
+      <button class="btn btn-num">8</button>
+      <button class="btn btn-num">9</button>
+      <button class="btn btn-op">*</button>
+
+      <!-- 4 5 6 -->
+      <button class="btn btn-num">4</button>
+      <button class="btn btn-num">5</button>
+      <button class="btn btn-num">6</button>
+      <button class="btn btn-op">-</button>
+
+      <!-- 1 2 3 -->
+      <button class="btn btn-num">1</button>
+      <button class="btn btn-num">2</button>
+      <button class="btn btn-num">3</button>
+      <button class="btn btn-op">+</button>
+
+      <!-- ردیف آخر: 0 (دو خانه)، نقطه، مساوی -->
+      <button class="btn btn-num btn-zero">0</button>
+      <button class="btn btn-num">.</button>
+      <button class="btn btn-op btn-eq">=</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
